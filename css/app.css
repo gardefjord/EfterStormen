@@ -135,7 +135,7 @@ h3 {
 /* line 103, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
-  border-color: #3198d3;
+  border-color: #022329;
 }
 
 /* line 107, ../_sass/app.sass */
@@ -164,14 +164,14 @@ h3 {
   letter-spacing: 0.15em;
   font-size: 1em;
   font-weight: 600;
-  background-color: #3198d3;
+  background-color: #022329;
   margin-top: 1em;
   border: none;
   cursor: pointer;
   -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
   -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
   box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
-  text-shadow: 0 -1px 0 #298ac1;
+  text-shadow: 0 -1px 0 #010e11;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -181,13 +181,13 @@ h3 {
 
 /* line 138, ../_sass/app.sass */
 .button-main:hover {
-  background-color: #298ac1;
-  text-shadow: 0 -1px 0 #206c97;
+  background-color: #010e11;
+  text-shadow: 0 -1px 0 black;
 }
 
 /* line 141, ../_sass/app.sass */
 .button-main:active {
-  background-color: #206c97;
+  background-color: black;
 }
 
 /* line 143, ../_sass/app.sass */
@@ -198,7 +198,7 @@ h3 {
 /* line 145, ../_sass/app.sass */
 .button-secondary:hover {
   margin-top: 1em;
-  color: #3198d3;
+  color: #022329;
 }
 
 /* line 148, ../_sass/app.sass */
@@ -227,7 +227,7 @@ h3 {
 /* line 162, ../_sass/app.sass */
 .how {
   padding-top: 30px;
-  background: #3198d3;
+  background: #022329;
   color: whitesmoke;
 }
 
@@ -297,7 +297,7 @@ footer {
 }
 /* line 204, ../_sass/app.sass */
 footer img:hover {
-  border: 4px solid #3198d3;
+  border: 4px solid #022329;
 }
 /* line 206, ../_sass/app.sass */
 footer img {

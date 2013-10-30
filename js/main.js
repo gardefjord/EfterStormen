@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+	//
+	//Video
+	//
+
 	//set the initial body width
 	var windowH = window.innerHeight; 
 	/*I need to go through all target divs because i don't know 
@@ -13,7 +18,7 @@ $(document).ready(function(){
 	    $(".video_container").css("width", windowW);
 	    $(".video_header").css("height", videoHeaderH); 
 	}
-
+	
 	$(".video_container").each(resize);
 	$(".video_header").each(resize);
 
@@ -29,5 +34,6 @@ $(document).ready(function(){
 	});
 
 
+	
 
 });
