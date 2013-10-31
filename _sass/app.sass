@@ -7,6 +7,7 @@ $link_blue: #0CC6E8
 $black: #022329
 $green: #31d37d
 $white_super_opac: rgba(255,255,255,0.05)
+$white_opac_formfield: rgba(255,255,255,0.3)
 
 * 
   -webkit-transition: all 0.3s
@@ -121,9 +122,10 @@ h3
   color: $black
 
 .emailfield:focus
-  background-color: $white
+  background-color: $white_opac_formfield
   border-color: $yellow 
   outline-color: $yellow
+  color: $white
 .button
   color: $white
   width: 80%
@@ -216,13 +218,14 @@ footer
   color: $white
   position: absolute
   bottom: 30px
-  right: 40px
+  left: 40px
 
   img
     height: 30px
   .copy
     clear: all
     font-size: .6em
+    text-align: left
 
 $break-handheld: 1024px
 
