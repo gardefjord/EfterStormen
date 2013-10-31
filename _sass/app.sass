@@ -1,7 +1,8 @@
 @import "compass/css3"
 
-$blue: #022329
+$yellow: #ffea35
 $white: #f5f5f5
+$white_opac: rgba(255,255,255,0.95)
 $link_blue: #0CC6E8
 $black: #022329
 $green: #31d37d
@@ -57,15 +58,22 @@ a
 
 .mission-statement
   text-align: center
-  color: $white
+  color: $white_opac
   width: 80%
   padding-left: 10%
   padding-right: 10%
+  @include text-shadow (0 0px 10px darken($white_opac, 100%))
+  .distance
+    background-color: rgba(255,255,255,0.1)
+    padding: 0 0.3em 0 0.3em
+.main_img
+  height: 80px
+  margin-top: 4em
 h1
   font-size: 4.5em
   text-transform: uppercase
   font-weight: 800
-  margin-top: 1em
+  margin-top: .8em
   margin-bottom: .1em 
 
 h2
@@ -88,10 +96,14 @@ h3
   margin-top: 5em
   .label
     margin-bottom: 5px
+  .disclaimer
+    color: $white_opac
+    font-size: .7em
+    text-align: center
 .emailfield
   width: 80%
   padding: 5% 10% 5% 10%
-  border: 1px solid $white
+  border: 1px solid $yellow
   margin: 0
   -moz-box-sizing: content-box
   -webkit-box-sizing: content-box
@@ -102,8 +114,8 @@ h3
 
 .emailfield:focus
   background-color: $white
-  border-color: $blue 
-
+  border-color: $yellow 
+  outline-color: $yellow
 .button
   color: $white
   width: 80%
@@ -117,7 +129,7 @@ h3
   font-weight: 600
 
 .button-main
-  color: $white
+  color: $black
   width: 100%
   padding: 5% 10% 5% 10%
   display: block
@@ -127,24 +139,27 @@ h3
   letter-spacing: .15em
   font-size: 1em
   font-weight: 600
-  background-color: $blue
+  background-color: $yellow
   margin-top: 1em
   border: none
   cursor: pointer
   @include box-shadow (inset 0 1px 1px rgba(255,255,255,0.6))
-  @include text-shadow (0 -1px 0 darken($blue, 5%))
+  @include text-shadow (0 -1px 0 lighten($yellow, 5%))
   @include border-radius (4px)
 
 .button-main:hover
-  background-color: darken($blue, 5%)
-  @include text-shadow (0 -1px 0 darken($blue, 15%))
+  background-color: darken($yellow, 15%)
+  @include text-shadow (0 1px 0 lighten($yellow, 15%))
 .button-main:active
-  background-color: darken($blue, 15%)
+  background-color: darken($yellow, 15%)
 .button-secondary
   margin-top: 1em
 .button-secondary:hover
   margin-top: 1em
-  color: $blue
+  color: $yellow
+
+
+
 .container
   width: 100%
   margin: 0 auto
@@ -161,7 +176,7 @@ h3
 
 .how
   padding-top: 30px
-  background: $blue
+  background: $yellow
   color: $white
 
 .area
@@ -172,11 +187,6 @@ h3
 .how_video
   margin-top: 80px
   width: 50%
-.copy
-  background: $green
-  color: $white
-  h1
-    margin-top: 0
 .video-note
   line-height: 50px
   vertical-align: middle
@@ -195,19 +205,17 @@ h3
 
 footer
   text-align: center
-  background: $black
-  background-image: url("../images/footer_bg.jpg") 
-  background-repeat: none
-  background-size: 120% auto
-  background-position: 50% 50%
   color: $white
-  img:hover
-    border: 4px solid $blue
+  position: absolute
+  bottom: 30px
+  right: 30px
+  ul
+    list-style: none
+    li 
+      float: left
   img
-    border: 4px solid rgba(255,255,255,0)
-    width: 100px
-    @include border-radius(100%)
-    margin-left: 1em
+    height: 30px
+
 
 $break-handheld: 1024px
 

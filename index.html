@@ -37,12 +37,13 @@
 	<body>
 		<div class="container">
 			<div class="video_header">
-				<header class="header container">
+				<!-- <header class="header container">
 					<h1 class="logo">Funnle</h1>
-				</header>
+				</header> -->
 
 				<div class="mission-statement">
-					<h1>Du befinner dig <span id="geoPos"></span> km <br />från reaktor 7.</h1>
+					<img class="main_img" src="img/radioaktivt_yellow.png">
+					<h1>Du befinner dig <span class="distance"><span id="geoPos" ></span> km</span> <br />från reaktor 7.</h1>
 					<h2>Tre historier. Tre författare. Samma katastrof. 2014 händer det som inte kunde hända.</h2>
 					
 					<p></p>
@@ -55,19 +56,27 @@
 								<br/> 
 								<label class="label" for="fieldEmail">Din e-post:</label>
 								<br />
-								<input type="email" id="fieldEmail" placeholder="Vi spammar inte!"class="emailfield" name="cm-xuktr-xuktr" required>
+								<input tabindex="0" type="email" id="fieldEmail" placeholder="Vi spammar inte!"class="emailfield" name="cm-xuktr-xuktr" required>
 								<br/>
 								<input type="submit" value="Låt mig veta när larmet går" name="subscribe"  class="button-main request">
 								<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
 								<div class="response" id="mce-success-response" style="display:none"></div>
-								<p>Vi lämnar inte vidare din e-postadress till någon annan part.</p>
+								<p class="disclaimer">Vi lämnar inte vidare din e-postadress till någon annan part.</p>
 							</form>
 							<!-- <a href="#learnmore" class="button button-secondary" id="learnMore_btn">Mer info</a> -->
 							
 						</div>
 					</div>
-
+					<footer class="footer">
+						<ul>
+							<li>
+								<img src="img/Mix_logo_vit.png">
+							</li>
+						</ul>
+						<p class="copy">&copy; Mix Förlag 2013</p>
+					</footer>
+		 
 
 					<div class="video_container">
 						<video id="awesome_video" preload="auto" autoplay loop="loop">
@@ -79,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- 
+<!--
 		<div class="features" id="scrollToLearnMore">
 			<div class="how row white-bg">
 				<div class="how area">
@@ -109,6 +118,8 @@
 </body>
 <script language="JavaScript" type="text/javascript" src="http://j.maxmind.com/app/geoip.js"></script>
 <script type="text/javascript">
+
+	
 	$(document).ready(function(){
 
 		//

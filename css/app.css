@@ -1,4 +1,4 @@
-/* line 8, ../_sass/app.sass */
+/* line 9, ../_sass/app.sass */
 * {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -6,7 +6,7 @@
   -webkit-appearance: none;
 }
 
-/* line 14, ../_sass/app.sass */
+/* line 15, ../_sass/app.sass */
 #awesome_video {
   position: absolute;
   z-index: -9999;
@@ -16,7 +16,7 @@
   height: 100%;
 }
 
-/* line 22, ../_sass/app.sass */
+/* line 23, ../_sass/app.sass */
 .video_container {
   position: absolute;
   z-index: -9999;
@@ -25,7 +25,7 @@
   overflow: hidden;
 }
 
-/* line 29, ../_sass/app.sass */
+/* line 30, ../_sass/app.sass */
 body {
   background: #022329;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -34,26 +34,26 @@ body {
   margin: 0;
 }
 
-/* line 35, ../_sass/app.sass */
+/* line 36, ../_sass/app.sass */
 a {
   color: #0cc6e8;
 }
 
-/* line 38, ../_sass/app.sass */
+/* line 39, ../_sass/app.sass */
 .row {
   margin: 0 auto;
 }
 
-/* line 41, ../_sass/app.sass */
+/* line 42, ../_sass/app.sass */
 .white-bg {
   background: whitesmoke;
 }
 
-/* line 44, ../_sass/app.sass */
+/* line 45, ../_sass/app.sass */
 .header {
   width: 100%;
 }
-/* line 46, ../_sass/app.sass */
+/* line 47, ../_sass/app.sass */
 .header .logo {
   width: 184px;
   height: 44px;
@@ -67,39 +67,51 @@ a {
   text-indent: -9999px;
 }
 
-/* line 58, ../_sass/app.sass */
+/* line 59, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 0.95);
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  text-shadow: 0 0px 10px rgba(0, 0, 0, 0.95);
+}
+/* line 66, ../_sass/app.sass */
+.mission-statement .distance {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0 0.3em 0 0.3em;
 }
 
-/* line 64, ../_sass/app.sass */
+/* line 69, ../_sass/app.sass */
+.main_img {
+  height: 80px;
+  margin-top: 4em;
+}
+
+/* line 72, ../_sass/app.sass */
 h1 {
   font-size: 4.5em;
   text-transform: uppercase;
   font-weight: 800;
-  margin-top: 1em;
+  margin-top: 0.8em;
   margin-bottom: 0.1em;
 }
 
-/* line 71, ../_sass/app.sass */
+/* line 79, ../_sass/app.sass */
 h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 75, ../_sass/app.sass */
+/* line 83, ../_sass/app.sass */
 h3 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 79, ../_sass/app.sass */
+/* line 87, ../_sass/app.sass */
 .call-out {
   font-size: 3em;
   text-transform: uppercase;
@@ -107,22 +119,28 @@ h3 {
   font-style: italic;
 }
 
-/* line 85, ../_sass/app.sass */
+/* line 93, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
   width: 400px;
   margin-top: 5em;
 }
-/* line 89, ../_sass/app.sass */
+/* line 97, ../_sass/app.sass */
 .sign-up-form .label {
   margin-bottom: 5px;
 }
+/* line 99, ../_sass/app.sass */
+.sign-up-form .disclaimer {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.7em;
+  text-align: center;
+}
 
-/* line 91, ../_sass/app.sass */
+/* line 103, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
-  border: 1px solid whitesmoke;
+  border: 1px solid #ffea35;
   margin: 0;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -132,13 +150,14 @@ h3 {
   color: #022329;
 }
 
-/* line 103, ../_sass/app.sass */
+/* line 115, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
-  border-color: #022329;
+  border-color: #ffea35;
+  outline-color: #ffea35;
 }
 
-/* line 107, ../_sass/app.sass */
+/* line 119, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -152,9 +171,9 @@ h3 {
   font-weight: 600;
 }
 
-/* line 119, ../_sass/app.sass */
+/* line 131, ../_sass/app.sass */
 .button-main {
-  color: whitesmoke;
+  color: #022329;
   width: 100%;
   padding: 5% 10% 5% 10%;
   display: block;
@@ -164,14 +183,14 @@ h3 {
   letter-spacing: 0.15em;
   font-size: 1em;
   font-weight: 600;
-  background-color: #022329;
+  background-color: #ffea35;
   margin-top: 1em;
   border: none;
   cursor: pointer;
   -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
   -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
   box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
-  text-shadow: 0 -1px 0 #010e11;
+  text-shadow: 0 -1px 0 #ffed4f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -179,90 +198,80 @@ h3 {
   border-radius: 4px;
 }
 
-/* line 138, ../_sass/app.sass */
+/* line 150, ../_sass/app.sass */
 .button-main:hover {
-  background-color: #010e11;
-  text-shadow: 0 -1px 0 black;
+  background-color: #e8cf00;
+  text-shadow: 0 1px 0 #fff282;
 }
 
-/* line 141, ../_sass/app.sass */
+/* line 153, ../_sass/app.sass */
 .button-main:active {
-  background-color: black;
+  background-color: #e8cf00;
 }
 
-/* line 143, ../_sass/app.sass */
+/* line 155, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 145, ../_sass/app.sass */
+/* line 157, ../_sass/app.sass */
 .button-secondary:hover {
   margin-top: 1em;
-  color: #022329;
+  color: #ffea35;
 }
 
-/* line 148, ../_sass/app.sass */
+/* line 163, ../_sass/app.sass */
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 151, ../_sass/app.sass */
+/* line 166, ../_sass/app.sass */
 .row {
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
-/* line 155, ../_sass/app.sass */
+/* line 170, ../_sass/app.sass */
 .video_header {
   margin-bottom: 0px;
 }
 
-/* line 158, ../_sass/app.sass */
+/* line 173, ../_sass/app.sass */
 .features {
   color: #022329;
   text-align: center;
 }
 
-/* line 162, ../_sass/app.sass */
+/* line 177, ../_sass/app.sass */
 .how {
   padding-top: 30px;
-  background: #022329;
+  background: #ffea35;
   color: whitesmoke;
 }
 
-/* line 167, ../_sass/app.sass */
+/* line 182, ../_sass/app.sass */
 .area {
   margin-bottom: 100px;
 }
 
-/* line 170, ../_sass/app.sass */
+/* line 185, ../_sass/app.sass */
 .how_img {
   margin-top: 80px;
 }
 
-/* line 172, ../_sass/app.sass */
+/* line 187, ../_sass/app.sass */
 .how_video {
   margin-top: 80px;
   width: 50%;
 }
 
-/* line 175, ../_sass/app.sass */
-.copy {
-  background: #31d37d;
-  color: whitesmoke;
-}
-/* line 178, ../_sass/app.sass */
-.copy h1 {
-  margin-top: 0;
-}
-
-/* line 180, ../_sass/app.sass */
+/* line 190, ../_sass/app.sass */
 .video-note {
   line-height: 50px;
   vertical-align: middle;
 }
-/* line 183, ../_sass/app.sass */
+/* line 193, ../_sass/app.sass */
 .video-note img {
   height: 50px;
   vertical-align: middle;
@@ -273,72 +282,67 @@ h3 {
   border-radius: 100%;
   margin-left: 1em;
 }
-/* line 188, ../_sass/app.sass */
+/* line 198, ../_sass/app.sass */
 .video-note a {
   text-decoration: none;
   border-bottom: 1px solid #0cc6e8;
 }
-/* line 191, ../_sass/app.sass */
+/* line 201, ../_sass/app.sass */
 .video-note a:hover {
   border-bottom: 1px solid #099db8;
   color: #099db8;
   padding-bottom: 3px;
 }
 
-/* line 196, ../_sass/app.sass */
+/* line 206, ../_sass/app.sass */
 footer {
   text-align: center;
-  background: #022329;
-  background-image: url("../images/footer_bg.jpg");
-  background-repeat: none;
-  background-size: 120% auto;
-  background-position: 50% 50%;
   color: whitesmoke;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
-/* line 204, ../_sass/app.sass */
-footer img:hover {
-  border: 4px solid #022329;
+/* line 212, ../_sass/app.sass */
+footer ul {
+  list-style: none;
 }
-/* line 206, ../_sass/app.sass */
+/* line 214, ../_sass/app.sass */
+footer ul li {
+  float: left;
+}
+/* line 216, ../_sass/app.sass */
 footer img {
-  border: 4px solid rgba(255, 255, 255, 0);
-  width: 100px;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-  border-radius: 100%;
-  margin-left: 1em;
+  height: 30px;
 }
 
 @media screen and (max-device-width: 1024px) {
-  /* line 215, ../_sass/app.sass */
+  /* line 223, ../_sass/app.sass */
   body {
     font-size: 12px;
   }
 
-  /* line 217, ../_sass/app.sass */
+  /* line 225, ../_sass/app.sass */
   h1 {
     font-size: 2.5em;
   }
 
-  /* line 219, ../_sass/app.sass */
+  /* line 227, ../_sass/app.sass */
   h2 {
     font-size: 1.5em;
   }
 
-  /* line 221, ../_sass/app.sass */
+  /* line 229, ../_sass/app.sass */
   h3 {
     font-size: 1.5em;
   }
 
-  /* line 223, ../_sass/app.sass */
+  /* line 231, ../_sass/app.sass */
   .video_header {
     padding-left: 5%;
     padding-right: 5%;
   }
 
-  /* line 227, ../_sass/app.sass */
+  /* line 235, ../_sass/app.sass */
   .header .logo {
     margin-top: 10px;
     width: 92px;
@@ -348,17 +352,17 @@ footer img {
     background-size: 92px 22px;
   }
 
-  /* line 235, ../_sass/app.sass */
+  /* line 243, ../_sass/app.sass */
   .mission-statement h1 {
     margin-top: 0.5em;
   }
 
-  /* line 237, ../_sass/app.sass */
+  /* line 245, ../_sass/app.sass */
   #awesome_video {
     display: none;
   }
 
-  /* line 239, ../_sass/app.sass */
+  /* line 247, ../_sass/app.sass */
   .row {
     padding-left: 5%;
     padding-right: 5%;
@@ -366,29 +370,29 @@ footer img {
     padding-top: 20px;
   }
 
-  /* line 244, ../_sass/app.sass */
+  /* line 252, ../_sass/app.sass */
   .sign-up-form {
     width: 90%;
     margin-top: 0em;
   }
 
-  /* line 247, ../_sass/app.sass */
+  /* line 255, ../_sass/app.sass */
   .area {
     margin-bottom: 10px;
   }
 
-  /* line 249, ../_sass/app.sass */
+  /* line 257, ../_sass/app.sass */
   .how_video {
     display: none;
   }
 
-  /* line 251, ../_sass/app.sass */
+  /* line 259, ../_sass/app.sass */
   iframe {
     width: 90%;
     height: 100%;
   }
 
-  /* line 254, ../_sass/app.sass */
+  /* line 262, ../_sass/app.sass */
   footer {
     background-image: none;
   }
