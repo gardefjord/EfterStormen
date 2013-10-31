@@ -6,6 +6,8 @@ $white_opac: rgba(255,255,255,0.95)
 $link_blue: #0CC6E8
 $black: #022329
 $green: #31d37d
+$white_super_opac: rgba(255,255,255,0.05)
+
 * 
   -webkit-transition: all 0.3s
   -moz-transition: all 0.3s
@@ -63,9 +65,15 @@ a
   padding-left: 10%
   padding-right: 10%
   @include text-shadow (0 0px 10px darken($white_opac, 100%))
-  .distance
-    background-color: rgba(255,255,255,0.1)
-    padding: 0 0.3em 0 0.3em
+.distance
+  background-color: rgba(255,255,255,0.1)
+  padding: 0 0.3em 0 0.3em
+  color: $white_super_opac
+.distance_active
+  background-color: rgba(255,255,255,0.1)
+  padding: 0 0.3em 0 0.3em
+  color: $white_opac
+
 .main_img
   height: 80px
   margin-top: 4em

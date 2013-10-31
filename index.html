@@ -43,7 +43,7 @@
 
 				<div class="mission-statement">
 					<img class="main_img" src="img/radioaktivt_yellow.png">
-					<h1>Du befinner dig <span class="distance"><span id="geoPos" ></span> km</span> <br />från reaktor 7.</h1>
+					<h1>Du befinner dig <span class="distance" id="distance"><span id="geoPos" >000</span> km</span> <br />från reaktor 7.</h1>
 					<h2>Tre historier. Tre författare. Samma katastrof. 2014 händer det som inte kunde hända.</h2>
 					
 					<p></p>
@@ -56,7 +56,7 @@
 								<br/> 
 								<label class="label" for="fieldEmail">Din e-post:</label>
 								<br />
-								<input tabindex="0" type="email" id="fieldEmail" placeholder="Vi spammar inte!"class="emailfield" name="cm-xuktr-xuktr" required>
+								<input tabindex="0" type="email" id="fieldEmail" placeholder="Vi spammar inte!" class="emailfield" name="cm-xuktr-xuktr" required>
 								<br/>
 								<input type="submit" value="Låt mig veta när larmet går" name="subscribe"  class="button-main request">
 								<div id="mce-responses" class="clear">
@@ -120,8 +120,11 @@
 <script type="text/javascript">
 
 	
-	$(document).ready(function(){
 
+	$(document).ready(function(){
+		setTimeout(function() {start_distance();}, 2000);
+	});
+	function start_distance(){
 		//
 		//Geoposition
 		//
@@ -153,12 +156,14 @@
 			var x=document.getElementById("geoPos");
 
 			x.innerHTML= distance; 
-
+			
 		function toRad(Value) {
 		/** Converts numeric degrees to radians */
 			return Value * Math.PI / 180;
+			}
+		var y=document.getElementById("distance");
+			y.className = " distance_active";
 		}
-	});
 
 </script>
 </html>
