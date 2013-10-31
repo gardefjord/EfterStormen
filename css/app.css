@@ -309,49 +309,46 @@ footer {
   color: whitesmoke;
   position: absolute;
   bottom: 30px;
-  right: 30px;
+  right: 40px;
 }
-/* line 220, ../_sass/app.sass */
-footer ul {
-  list-style: none;
-}
-/* line 222, ../_sass/app.sass */
-footer ul li {
-  float: left;
-}
-/* line 224, ../_sass/app.sass */
+/* line 221, ../_sass/app.sass */
 footer img {
   height: 30px;
 }
+/* line 223, ../_sass/app.sass */
+footer .copy {
+  clear: all;
+  font-size: 0.6em;
+}
 
 @media screen and (max-device-width: 1024px) {
-  /* line 231, ../_sass/app.sass */
+  /* line 230, ../_sass/app.sass */
   body {
     font-size: 12px;
   }
 
-  /* line 233, ../_sass/app.sass */
+  /* line 232, ../_sass/app.sass */
   h1 {
     font-size: 2.5em;
   }
 
-  /* line 235, ../_sass/app.sass */
+  /* line 234, ../_sass/app.sass */
   h2 {
     font-size: 1.5em;
   }
 
-  /* line 237, ../_sass/app.sass */
+  /* line 236, ../_sass/app.sass */
   h3 {
     font-size: 1.5em;
   }
 
-  /* line 239, ../_sass/app.sass */
+  /* line 238, ../_sass/app.sass */
   .video_header {
     padding-left: 5%;
     padding-right: 5%;
   }
 
-  /* line 243, ../_sass/app.sass */
+  /* line 242, ../_sass/app.sass */
   .header .logo {
     margin-top: 10px;
     width: 92px;
@@ -361,17 +358,17 @@ footer img {
     background-size: 92px 22px;
   }
 
-  /* line 251, ../_sass/app.sass */
+  /* line 250, ../_sass/app.sass */
   .mission-statement h1 {
     margin-top: 0.5em;
   }
 
-  /* line 253, ../_sass/app.sass */
+  /* line 252, ../_sass/app.sass */
   #awesome_video {
     display: none;
   }
 
-  /* line 255, ../_sass/app.sass */
+  /* line 254, ../_sass/app.sass */
   .row {
     padding-left: 5%;
     padding-right: 5%;
@@ -379,29 +376,29 @@ footer img {
     padding-top: 20px;
   }
 
-  /* line 260, ../_sass/app.sass */
+  /* line 259, ../_sass/app.sass */
   .sign-up-form {
     width: 90%;
     margin-top: 0em;
   }
 
-  /* line 263, ../_sass/app.sass */
+  /* line 262, ../_sass/app.sass */
   .area {
     margin-bottom: 10px;
   }
 
-  /* line 265, ../_sass/app.sass */
+  /* line 264, ../_sass/app.sass */
   .how_video {
     display: none;
   }
 
-  /* line 267, ../_sass/app.sass */
+  /* line 266, ../_sass/app.sass */
   iframe {
     width: 90%;
     height: 100%;
   }
 
-  /* line 270, ../_sass/app.sass */
+  /* line 269, ../_sass/app.sass */
   footer {
     background-image: none;
   }
