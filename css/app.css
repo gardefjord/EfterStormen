@@ -26,34 +26,43 @@
 }
 
 /* line 33, ../_sass/app.sass */
+html {
+  background: url("../img/bg_storm.jpg") no-repeat center center;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 41, ../_sass/app.sass */
 body {
-  background: #022329;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: white;
   margin: 0;
 }
 
-/* line 39, ../_sass/app.sass */
+/* line 47, ../_sass/app.sass */
 a {
   color: #0cc6e8;
 }
 
-/* line 42, ../_sass/app.sass */
+/* line 50, ../_sass/app.sass */
 .row {
   margin: 0 auto;
 }
 
-/* line 45, ../_sass/app.sass */
+/* line 53, ../_sass/app.sass */
 .white-bg {
   background: whitesmoke;
 }
 
-/* line 48, ../_sass/app.sass */
+/* line 56, ../_sass/app.sass */
 .header {
   width: 100%;
 }
-/* line 50, ../_sass/app.sass */
+/* line 58, ../_sass/app.sass */
 .header .logo {
   width: 184px;
   height: 44px;
@@ -67,7 +76,7 @@ a {
   text-indent: -9999px;
 }
 
-/* line 62, ../_sass/app.sass */
+/* line 70, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
   color: rgba(255, 255, 255, 0.95);
@@ -77,27 +86,27 @@ a {
   text-shadow: 0 0px 10px rgba(0, 0, 0, 0.95);
 }
 
-/* line 69, ../_sass/app.sass */
+/* line 77, ../_sass/app.sass */
 .distance {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0 0.3em 0 0.3em;
   color: rgba(255, 255, 255, 0.05);
 }
 
-/* line 73, ../_sass/app.sass */
+/* line 81, ../_sass/app.sass */
 .distance_active {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0 0.3em 0 0.3em;
   color: rgba(255, 255, 255, 0.95);
 }
 
-/* line 78, ../_sass/app.sass */
+/* line 86, ../_sass/app.sass */
 .main_img {
   height: 80px;
   margin-top: 4em;
 }
 
-/* line 81, ../_sass/app.sass */
+/* line 89, ../_sass/app.sass */
 h1 {
   font-size: 4.5em;
   text-transform: uppercase;
@@ -106,21 +115,21 @@ h1 {
   margin-bottom: 0.1em;
 }
 
-/* line 88, ../_sass/app.sass */
+/* line 96, ../_sass/app.sass */
 h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 92, ../_sass/app.sass */
+/* line 100, ../_sass/app.sass */
 h3 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 96, ../_sass/app.sass */
+/* line 104, ../_sass/app.sass */
 .call-out {
   font-size: 3em;
   text-transform: uppercase;
@@ -128,24 +137,24 @@ h3 {
   font-style: italic;
 }
 
-/* line 102, ../_sass/app.sass */
+/* line 110, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
   width: 400px;
   margin-top: 5em;
 }
-/* line 106, ../_sass/app.sass */
+/* line 114, ../_sass/app.sass */
 .sign-up-form .label {
   margin-bottom: 5px;
 }
-/* line 108, ../_sass/app.sass */
+/* line 116, ../_sass/app.sass */
 .sign-up-form .disclaimer {
   color: rgba(255, 255, 255, 0.95);
   font-size: 0.7em;
   text-align: center;
 }
 
-/* line 112, ../_sass/app.sass */
+/* line 120, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
@@ -159,7 +168,7 @@ h3 {
   color: #022329;
 }
 
-/* line 124, ../_sass/app.sass */
+/* line 132, ../_sass/app.sass */
 .emailfield:focus {
   background-color: rgba(255, 255, 255, 0.3);
   border-color: #ffea35;
@@ -167,7 +176,7 @@ h3 {
   color: whitesmoke;
 }
 
-/* line 129, ../_sass/app.sass */
+/* line 137, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -181,7 +190,7 @@ h3 {
   font-weight: 600;
 }
 
-/* line 141, ../_sass/app.sass */
+/* line 149, ../_sass/app.sass */
 .button-main {
   color: #022329;
   width: 100%;
@@ -208,80 +217,80 @@ h3 {
   border-radius: 4px;
 }
 
-/* line 160, ../_sass/app.sass */
+/* line 168, ../_sass/app.sass */
 .button-main:hover {
   background-color: #e8cf00;
   text-shadow: 0 1px 0 #fff282;
 }
 
-/* line 163, ../_sass/app.sass */
+/* line 171, ../_sass/app.sass */
 .button-main:active {
   background-color: #e8cf00;
 }
 
-/* line 165, ../_sass/app.sass */
+/* line 173, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 167, ../_sass/app.sass */
+/* line 175, ../_sass/app.sass */
 .button-secondary:hover {
   margin-top: 1em;
   color: #ffea35;
 }
 
-/* line 173, ../_sass/app.sass */
+/* line 181, ../_sass/app.sass */
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 176, ../_sass/app.sass */
+/* line 184, ../_sass/app.sass */
 .row {
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
-/* line 180, ../_sass/app.sass */
+/* line 188, ../_sass/app.sass */
 .video_header {
   margin-bottom: 0px;
 }
 
-/* line 183, ../_sass/app.sass */
+/* line 191, ../_sass/app.sass */
 .features {
   color: #022329;
   text-align: center;
 }
 
-/* line 187, ../_sass/app.sass */
+/* line 195, ../_sass/app.sass */
 .how {
   padding-top: 30px;
   background: #ffea35;
   color: whitesmoke;
 }
 
-/* line 192, ../_sass/app.sass */
+/* line 200, ../_sass/app.sass */
 .area {
   margin-bottom: 100px;
 }
 
-/* line 195, ../_sass/app.sass */
+/* line 203, ../_sass/app.sass */
 .how_img {
   margin-top: 80px;
 }
 
-/* line 197, ../_sass/app.sass */
+/* line 205, ../_sass/app.sass */
 .how_video {
   margin-top: 80px;
   width: 50%;
 }
 
-/* line 200, ../_sass/app.sass */
+/* line 208, ../_sass/app.sass */
 .video-note {
   line-height: 50px;
   vertical-align: middle;
 }
-/* line 203, ../_sass/app.sass */
+/* line 211, ../_sass/app.sass */
 .video-note img {
   height: 50px;
   vertical-align: middle;
@@ -292,19 +301,19 @@ h3 {
   border-radius: 100%;
   margin-left: 1em;
 }
-/* line 208, ../_sass/app.sass */
+/* line 216, ../_sass/app.sass */
 .video-note a {
   text-decoration: none;
   border-bottom: 1px solid #0cc6e8;
 }
-/* line 211, ../_sass/app.sass */
+/* line 219, ../_sass/app.sass */
 .video-note a:hover {
   border-bottom: 1px solid #099db8;
   color: #099db8;
   padding-bottom: 3px;
 }
 
-/* line 216, ../_sass/app.sass */
+/* line 224, ../_sass/app.sass */
 footer {
   text-align: center;
   color: whitesmoke;
@@ -312,11 +321,11 @@ footer {
   bottom: 30px;
   left: 40px;
 }
-/* line 223, ../_sass/app.sass */
+/* line 231, ../_sass/app.sass */
 footer img {
   height: 30px;
 }
-/* line 225, ../_sass/app.sass */
+/* line 233, ../_sass/app.sass */
 footer .copy {
   clear: all;
   font-size: 0.6em;
@@ -324,84 +333,64 @@ footer .copy {
 }
 
 @media screen and (max-device-width: 1024px) {
-  /* line 233, ../_sass/app.sass */
+  /* line 241, ../_sass/app.sass */
   body {
     font-size: 12px;
+    width: 100%;
   }
 
-  /* line 235, ../_sass/app.sass */
+  /* line 244, ../_sass/app.sass */
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
-  /* line 237, ../_sass/app.sass */
+  /* line 246, ../_sass/app.sass */
   h2 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
-  /* line 239, ../_sass/app.sass */
+  /* line 248, ../_sass/app.sass */
   h3 {
     font-size: 1.5em;
   }
 
-  /* line 241, ../_sass/app.sass */
+  /* line 250, ../_sass/app.sass */
   .video_header {
-    padding-left: 5%;
-    padding-right: 5%;
+    height: auto !important;
   }
 
-  /* line 245, ../_sass/app.sass */
-  .header .logo {
-    margin-top: 10px;
-    width: 92px;
-    height: 22px;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-size: 92px 22px;
-  }
-
-  /* line 253, ../_sass/app.sass */
-  .mission-statement h1 {
-    margin-top: 0.5em;
-  }
-
-  /* line 255, ../_sass/app.sass */
-  #awesome_video {
+  /* line 252, ../_sass/app.sass */
+  .video_container {
     display: none;
   }
 
-  /* line 257, ../_sass/app.sass */
-  .row {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 20px;
-    padding-top: 20px;
+  /* line 254, ../_sass/app.sass */
+  .main_img {
+    height: 40px;
+    margin-top: 2em;
   }
 
-  /* line 262, ../_sass/app.sass */
+  /* line 257, ../_sass/app.sass */
   .sign-up-form {
     width: 90%;
     margin-top: 0em;
   }
-
-  /* line 265, ../_sass/app.sass */
-  .area {
-    margin-bottom: 10px;
+  /* line 260, ../_sass/app.sass */
+  .sign-up-form .disclaimer {
+    font-size: 1em;
   }
 
-  /* line 267, ../_sass/app.sass */
+  /* line 262, ../_sass/app.sass */
   .how_video {
     display: none;
   }
 
-  /* line 269, ../_sass/app.sass */
-  iframe {
-    width: 90%;
-    height: 100%;
-  }
-
-  /* line 272, ../_sass/app.sass */
+  /* line 264, ../_sass/app.sass */
   footer {
-    background-image: none;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
   }
 }
